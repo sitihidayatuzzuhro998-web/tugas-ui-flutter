@@ -1,66 +1,29 @@
-# Tugas UI Flutter — Replikasi Tokopedia
+# Tugas UI/UX Flutter — Tokopedia
 
 ## Identitas
-| | |
-|---|---|
-| **Nama** | [Nama Kamu] |
-| **NIM** | [NIM Kamu] |
-| **Kelas** | [Kelas Kamu] |
-| **Pilihan** | C — Tokopedia/Shopee |
+- **Nama:** Siti Hidayatuz Zuhro
+- **NIM:** 2455201110024
+- **Pilihan:** C
 
----
+## Deskripsi Singkat
+Aplikasi ini merupakan replikasi halaman beranda marketplace Tokopedia yang bernama Shopiin
+Menampilkan search bar, promo banner, kategori produk, dan grid produk 
+dengan gambar, nama, harga, dan rating.
 
-## Deskripsi Aplikasi
-Aplikasi ini merupakan replikasi halaman beranda marketplace Tokopedia menggunakan Flutter. Menampilkan search bar, promo banner, kategori produk, dan grid 6 produk dengan gambar, nama, harga, dan rating.
+## Widget yang Digunakan
+- `AppBar` — menampilkan search bar dan ikon keranjang belanja
+- `BottomNavigationBar` — navigasi bawah dengan 4 menu
+- `GridView.builder` — menampilkan produk dalam format grid 2 kolom
+- `ListView.builder` — menampilkan kategori secara horizontal
+- `Image.network` — menampilkan gambar produk dari internet
+- `Container` — membungkus dan styling berbagai elemen UI
+- `Stack` — menumpuk badge notifikasi di atas ikon keranjang
 
----
-
-## Halaman yang Dibuat
-- **Halaman Beranda** — search bar, promo banner, kategori, grid produk (6 item), bottom navigation
-
----
-
-## Struktur Folder
-```
-tugas_ui_flutter/
-├── lib/
-│   ├── main.dart
-│   ├── pages/
-│   │   └── home_page.dart
-│   └── widgets/
-│       ├── product_card.dart
-│       ├── category_item.dart
-│       └── promo_banner.dart
-├── assets/
-├── wireframe/
-│   └── wireframe_foto.jpg
-├── screenshot/
-│   └── hasil_ui.png
-├── pubspec.yaml
-└── README.md
-```
-
----
+## Screenshot
+![Hasil UI](screenshot/hasil_ui.p)
 
 ## Wireframe
-![Wireframe](wireframe/wireframe_foto.jpg)
+![Wireframe](wireframe/wireframe_foto.png)
 
----
-
-## Screenshot Hasil
-![Hasil UI](screenshot/hasil_ui.png)
-
----
-
-## Cara Menjalankan
-```bash
-flutter pub get
-flutter run
-```
-
----
-
-## Teknologi
-- Flutter 3.x
-- Dart 3.x
-- Material Design 3
+## Kesulitan yang Ditemui
+(ceritakan kendala yang kamu temui dan cara mengatasinya)
