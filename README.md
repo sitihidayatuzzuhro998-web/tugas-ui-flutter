@@ -21,10 +21,11 @@ dengan gambar, nama, harga, dan rating.
 
 ## Screenshot
 <img width="350" alt="hasil_ui" src="https://github.com/user-attachments/assets/081fcc33-6e45-42be-86a9-293b18be5c68" />
+ini adalah tampilan aplikasi saat di device nyata ( handphone)
 
 ## Wireframe
 <img width="350" alt="wireframe_foto" src="https://github.com/user-attachments/assets/e3f95a61-e1fd-4795-8f41-b3f9b2f0ae09" />
-
+ini adalah tampian wireframe atau desain apikasi di figma
 
 ## Kesulitan yang Ditemui
 Kesulitan yang Ditemui & Cara Mengatasinya
