@@ -10,6 +10,27 @@ Aplikasi ini merupakan replikasi halaman beranda marketplace Tokopedia yang bern
 Menampilkan search bar, promo banner, kategori produk, dan grid produk 
 dengan gambar, nama, harga, dan rating.
 
+## Struktur Project
+
+```text
+tugas-ui-flutter/
+├── lib/
+│   ├── main.dart
+│   ├── pages/
+│   │   └── home_page.dart
+│   └── widgets/
+│       ├── category_item.dart
+│       ├── product_card.dart
+│       └── promo_banner.dart
+├── assets/
+├── screenshot/
+│   └── hasil_ui.png
+├── wireframe/
+│   └── wireframe_foto.jpg
+├── pubspec.yaml
+└── README.md
+```
+
 ## Widget yang Digunakan
 - `AppBar` — menampilkan search bar dan ikon keranjang belanja
 - `BottomNavigationBar` — navigasi bawah dengan 4 menu
